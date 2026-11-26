@@ -2,7 +2,7 @@
   "id": "./",
   "name": "GlutenPilot \u2014 Gluten-free living",
   "short_name": "GlutenPilot",
-  "description": "Review ingredients, scan barcodes and keep your personal food lists.",
+  "description": "Scan barcodes and review product ingredients and gluten-related warnings.",
   "lang": "en",
   "start_url": "./",
   "scope": "./",
