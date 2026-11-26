@@ -1,5 +1,5 @@
 // Release must match app.js, index.html asset versions, and version.json.
-const RELEASE='1.5.0';
+const RELEASE='1.6.0';
 const base=new URL(self.registration.scope), prefix='glutenpilot-shell:'+base.href+':', cacheName=prefix+RELEASE;
 const asset=p=>new URL(p,base).href, shell=asset('index.html');
 const files=[shell,asset('style.css?v='+RELEASE),asset('app.js?v='+RELEASE),asset('recipes.js?v='+RELEASE),asset('recipes-ui.js?v='+RELEASE),asset('manifest.webmanifest'),...['icon-192.png','icon-512.png','maskable-512.png','apple-touch-icon.png'].map(f=>asset('icons/'+f))];
