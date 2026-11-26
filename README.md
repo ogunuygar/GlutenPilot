@@ -1,11 +1,11 @@
-# GlutenPilot v1.3.0 — Barcode only
+# GlutenPilot v1.4.0 — Barcode only · gluten-specific trace checks
 
 English, mobile-first PWA. No account or app backend. Scan a barcode; Open Food Facts is checked first and USDA FoodData Central (exact GTIN only, DEMO_KEY limits) is a fallback if ingredients are missing. If no reliable information is retrieved, read the current package manually. No ingredient-photo/OCR feature or manufacturer/web search links. Database product pictures are optional.
 
 ## Result meanings
 - Red: possible gluten ingredient, allergen or warning found.
 - Green: explicit gluten-free wording in the database with an ingredient list and no detected conflicting terms. **Not a safety guarantee.**
-- Amber: insufficient information, wheat-free only, oats, other ambiguity or possible cross-contact.
+- Amber: insufficient information, wheat-free only, oats, ambiguous or unidentified cross-contact. Explicit traces of only recognized non-gluten allergens (e.g. eggs, milk, soy, lupin) no longer block a green claim. Other allergen information remains visible; unknown or gluten-related trace warnings still require review.
 
 Affirmative free-from wording (including Weizenfrei, Weizenfree, wheat-free, gluten-free, glutenfrei, without gluten) is not itself a warning. Independent ingredients, allergen tags and trace warnings remain active. Negated claims are treated cautiously. Always verify the actual package. Wheat allergy is distinct from coeliac disease. Database records can be stale, incomplete or incorrect.
 
